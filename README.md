@@ -1,8 +1,6 @@
 # Sistema de Gestión de Biblioteca (FastAPI + SQLModel)
 
-Trabajo Práctico para Programación IV. Consiste en una API REST para administrar el catálogo de una biblioteca (autores y libros), los socios y el sistema de préstamos y devoluciones con cálculo de multas y control de stock.
-
----
+## Trabajo Práctico para Programación IV. Consiste en una API REST para administrar el catálogo de una biblioteca (autores y libros), los socios y el sistema de préstamos y devoluciones con cálculo de multas y control de stock.
 
 ## Cómo correr la aplicación
 
@@ -16,8 +14,6 @@ pip install -r requirements.txt
 
 ### 2. Iniciar el servidor
 
-Ejecuta el siguiente comando:
-
 ```bash
 uvicorn main:app --reload
 ```
@@ -29,16 +25,8 @@ uvicorn main:app --reload
 
 ## Cómo correr los Tests
 
-Para ejecutar las 32 pruebas automatizadas y verificar la cobertura del código (que supera el 80% pedido en la consigna, alcanzando el **99%**):
-
 ```bash
 pytest --cov=. --cov-report=term-missing
-```
-
-O si solo quieres correr las pruebas sin el reporte de cobertura:
-
-```bash
-pytest
 ```
 
 ---
