@@ -1,0 +1,13 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Test coverage
+.coverage
+.coverage.*
+htmlcov/
+
+# SQLite local data
+biblioteca.db
+*.sqlite3

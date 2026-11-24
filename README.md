@@ -28,7 +28,6 @@ uvicorn main:app --reload
 ```bash
 pytest --cov=. --cov-report=term-missing
 ```
-
 ---
 
 ## Endpoints Principales
